@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Studio Hair Styles</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lustria&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="font/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+      <header class="header container">
+        <img src="img/logo/logo2.png" class="header__logo" alt="header__logo" />
+        <div class="title__navbar__name">
+          <h1>Studio Hair Styles</h1>
+          <p>Seu estilo. Do seu jeito</p>
+        </div>
+
+        <nav class="header__nav agenda">
+          <ul>
+            <li>
+              <div>
+                <a
+                  href="https://web.whatsapp.com/"
+                  target="_blank"
+                  class="header__nav--agenda"
+                >
+                  <i
+                    class="fa-solid fa-calendar fa-beat"
+                    style="color: #f0b81f"
+                  ></i>
+                  Agende seu Horário</a
+                >
+              </div>
+            </li>
+            <li>
+              <a href="#about" class="header__nav--active">Sobre Nós</a>
+            </li>
+            <li>
+              <a href="#contatos" class="header__nav--active">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!--  -->
+    <div class="navbar">
+      <div class="box box__whats">
+        <div class="icon whatsapp">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </div>
+        <a href="https:/web.whatsapp.com/" target="_blank"><p>WhatsApp</p></a>
+      </div>
+
+      <div class="box box__insta">
+        <div class="icon instagram">
+          <ion-icon name="logo-instagram" class="instagram__icon"></ion-icon>
+        </div>
+        <a href="https:/www.instagram.com/" target="_blank"><p>Instagram</p></a>
+      </div>
+
+      <div class="box box__facebook">
+        <div class="icon facebook">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </div>
+        <a href="https:/www.facebook.com/login/" target="_blank"
+          ><p>Facebook</p></a
+        >
+      </div>
+
+      <div class="box box__youtube">
+        <div class="icon youtube">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+        <a href="https:/www.youtube.com/" target="_blank"><p>YouTube</p></a>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div class="wrapperContainer wrapperContainer-hero">
+      <section class="container heroBanner">
+        <video width="100%" height="100%" autoplay muted loop controls>
+          <source src="/movie/videoImpactante.mp4" type="video/mp4" />
+          <object data="" width="100%" height="100%">
+            <embed width="320" height="240" src="/movie/videoImpactante.mp4" />
+          </object>
+        </video>
+      </section>
+    </div>
+
+    <div class="nossa__galeria">
+      <h2>Nossa Galeria</h2>
+    </div>
+
+    <div class="logos">
+      <div class="logos-slide">
+        <img
+          src="img/imageContainer/imageContainer1.jpg"
+          alt="nossa__galeria"
+        />
+        <img
+          src="img/imageContainer/imageContainer2.jpg"
+          alt="nossa__galeria"
+        />
+        <img
+          src="img/imageContainer/imageContainer3.jpg"
+          alt="nossa__galeria"
+        />
+        <img
+          src="img/imageContainer/imageContainer4.jpg"
+          alt="nossa__galeria"
+        />
+        <img src="img/imageContainer/heart.jpg" alt="nossa__galeria" />
+        <img
+          src="img/imageContainer/imageContainer6.jpg"
+          alt="nossa__galeria"
+        />
+        <img
+          src="img/imageContainer/imageContainer7.jpg"
+          alt="nossa__galeria"
+        />
+        <img
+          src="img/imageContainer/imageContainer8.jpg"
+          alt="nossa__galeria"
+        />
+      </div>
+    </div>
+
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+
+    <div class="wrapperContainer wrapperContainer-light">
+      <div class="aboutContainer">
+        <div class="content">
+          <div class="slides">
+            <input
+              class="input"
+              type="radio"
+              name="slide"
+              id="slide1"
+              checked
+            />
+            <input class="input" type="radio" name="slide" id="slide2" />
+            <input class="input" type="radio" name="slide" id="slide3" />
+            <input class="input" type="radio" name="slide" id="slide4" />
+            <input class="input" type="radio" name="slide" id="slide5" />
+<input type="text" > 1546546>
+            <div class="slide s1">
+              <img src="./img/imageCarrossel/carrossel001.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+              <img src="./img/imageCarrossel/carrossel002b.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+              <img src="./img/imageCarrossel/carrossel003.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+              <img src="./img/imageCarrossel/carrossel004.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+              <img src="./img/imageCarrossel/carrossel005.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="img__carrossel">
+          <img
+            src="img/logo/logo2.png"
+            alt="header__logo"
+            class="img__carrossel"
+          />
+        </div>
+      </div>
+      <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+      </div>
+    </div>
+
+    <div class="image__about" id="about">
+      <div class="navbar__about">
+        <div class="call__1">
+          <h3>Estamos esperando <br />por você!</h3>
+        </div>
+
+        <div>
+          <h4 class="call__2">Agende seu horário agora!</h4>
+        </div>
+        <div class="call__3">
+          <h4>Terça à Sábado - 09:00 - 19:00 horas</h4>
+        </div>
+
+        <div class="call__4">
+          <h4>Telefone: (11) 4585-7835</h4>
+        </div>
+        <nav class="header__nav agenda">
+          <ul>
+            <li>
+              <div class="about__agenda">
+                <a
+                  href="https://web.whatsapp.com/"
+                  target="_blank"
+                  class="header__nav--agenda"
+                >
+                  <i
+                    class="fa-solid fa-calendar fa-beat"
+                    style="color: #f0b81f"
+                  ></i>
+                  Agende seu Horário</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="box__about box__whats__about">
+          <div class="icon whatsapp">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </div>
+
+          <a href="https:/web.whatsapp.com/" target="_blank"><p>WhatsApp</p></a>
+        </div>
+
+        <div class="box__about box__insta__about">
+          <div class="icon instagram">
+            <ion-icon name="logo-instagram" class="instagram__icon"></ion-icon>
+          </div>
+          <a href="https:/www.instagram.com/" target="_blank"
+            ><p>Instagram</p></a
+          >
+        </div>
+
+        <div class="box__about box__facebook__about">
+          <div class="icon facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </div>
+          <a href="https:/www.facebook.com/login/" target="_blank"
+            ><p>Facebook</p></a
+          >
+        </div>
+
+        <div class="box__about box__youtube__about">
+          <div class="icon youtube">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </div>
+          <a href="https:/www.youtube.com/" target="_blank"><p>YouTube</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light">
+      <section  class="about_card_content">
+        <h2>Sobre Nós</h2>
+
+        <div class="wrapperContainer wrapperContainer-light">
+          <div class="aboutContainer">
+            <article>
+              <div class="about_card--active">
+                <img
+                  src="img/imageCarrossel/carrossel2.jpg"
+                  alt="carrosselDesign"
+                />
+              </div>
+            </article>
+            <article class="about_card">
+              <div class="about_card_content">
+                <h3 class="about">Sobre o Studio: Hair Styles</h3>
+                <div class="justify">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam aliquid libero qui natus eaque eligendi pariatur.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="about_card">
+              <div class="about_card_content">
+                <h3>Sobre nossos profissionais</h3>
+                <div class="justify">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Fuga soluta deserunt molestiae recusandae. Vitae eius.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light">
+      <section class="container">
+        <div class="services_card_content">
+          <h2>Nossos principais serviços oferecidos</h2>
+        </div>
+        <div class="servicesContainer">
+          <article class="services_card">
+            <div class="img__tesoura">
+              <img
+                src="img/logo/tesoura2.png"
+                alt="tesoura"
+                class="img__tesoura"
+              />
+            </div>
+            <div class="services_card_content">
+              <h3>Nossos tipos de Cortes de Cabelo</h3>
+
+              <div class="justify">
+                <p>
+                  Descrever aqui os tipos de cortes. tipos de clientes: adultos,
+                  crianças, etc.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="services_card">
+            <div class="img__cabelo">
+              <img src="img/logo/cabelo.png" alt="cabelo" class="img__cabelo" />
+            </div>
+
+            <div class="services_card_content">
+              <h3>Nossos tipos de Tinturas de Cabelos</h3>
+
+              <div class="justify services">
+                <p>
+                  Descrever aqui os tipos de Tinturas. tipos de especialidades:
+                  tons, marcas usadas das tintas, etc.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="services_card">
+            <div class="img__secador">
+              <img
+                src="img/logo/secador2.png"
+                alt="secador"
+                class="img__secador"
+              />
+            </div>
+            <div class="services_card_content">
+              <h3>Secagem / Escova</h3>
+
+              <div class="justify">
+                <p>
+                  Descrever aqui os tipos de Secagem, escova de cabelo,
+                  alisamento, etc.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!--  -->
+
+    <div class="wrapperContainer wrapperContainer-light">
+      <section id="say__about" class="say__about_card_content">
+        <h2>Depoimentos</h2>
+
+        <div class="wrapperContainer wrapperContainer-light say__content">
+          <div class="say__aboutContainer say__star">
+            <article>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="say__about_card--active">
+                <img src="img/say.jpg" alt="say" />
+
+                <div class="justify">
+                  <div class="say__1">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni aspernatur iste eligendi veritatis fugit aperiam
+                      voluptas, accusamus vitae quisquam sint earum voluptatibus
+                      tempore totam, quod ut ducimus itaque eaque laboriosam
+                      ipsa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="say__aboutContainer say__star">
+            <article>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="say__about_card--active">
+                <img <img src="img/say.jpg" alt="say" />
+
+                <div class="justify">
+                  <div class="say__2">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni aspernatur iste eligendi veritatis fugit aperiam
+                      voluptas, accusamus vitae quisquam sint earum voluptatibus
+                      tempore totam, quod ut ducimus itaque eaque laboriosam
+                      ipsa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="say__aboutContainer say__star">
+            <article>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+              <div class="margin">
+                <div class="star">
+                  <i
+                    class="fa-solid fa-star fa-beat"
+                    style="color: #e7aa04"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="say__about_card--active">
+                <img <img src="img/say.jpg" alt="say" />
+
+                />
+                <div class="justify">
+                  <div class="say__3">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni aspernatur iste eligendi veritatis fugit aperiam
+                      voluptas, accusamus vitae quisquam sint earum voluptatibus
+                      tempore totam, quod ut ducimus itaque eaque laboriosam
+                      ipsa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--  -->
+    <div>
+      <section class="container">
+        <div class="container__insta">    
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CsD_rCUtISt/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" </blockquote> <script async src="//www.instagram.com/embed.js"></script>   
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CrdmFY1OXwd/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" </blockquote> <script async src="//www.instagram.com/embed.js"></script>  
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/tv/COST4erD9MG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"  </blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CpA_LppDm7C/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"  </blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          </article>
+      </div>  
+
+
+    <div>
+      <section class="container">
+        <div class="container__insta">    
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CsD_rCUtISt/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" </blockquote> <script async src="//www.instagram.com/embed.js"></script>   
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CrdmFY1OXwd/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" </blockquote> <script async src="//www.instagram.com/embed.js"></script>  
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/tv/COST4erD9MG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"  </blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          </article>
+          <article class="card__insta">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CpA_LppDm7C/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"  </blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          </article>
+      </div>        
+    <!--  -->
+    <div
+      class="wrapperContainer wrapperContainer-light wrapperContainer-padded"
+      id="contatos"
+    >
+      <section class="container">
+        <div class="section_title_contatos">
+          <h2>Contatos</h2>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.9248899785563!2d-52.81970437079146!3d-28.45847179890542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd493b24699437%3A0xdb26ce86faa682a9!2sAv.%20Dr.%20Waldomiro%20Graeff%2C%201233%20-%20Centro%2C%20N%C3%A3o-Me-Toque%20-%20RS%2C%2099470-000%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1680682208842!5m2!1spt-PT!2spt"
+          width="100%"
+          height="525"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <address class="contatos_address">
+          Av. Dr. Waldomiro Graeff, 1686<br />
+          Tel.: (11) 4585-7835<br />
+          E-mail: contato@studiohairstyles.com
+        </address>
+      </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark">
+      <footer class="footer">
+        Developer by Hercules Ferreira Ribeiro&copy; 2023
+        <a href="#"> </a>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

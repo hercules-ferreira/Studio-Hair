@@ -1,0 +1,1000 @@
+:root {
+  --primary-color: #fed001;
+}
+
+html {
+  font: 400 62.5% "Inter", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 10px !important;
+  background-color: #262626;
+}
+
+.redes1 ul {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 200vh;
+  height: 760px;
+  list-style-type: none;
+  gap: 6px;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  /* font-size: 4.8rem; */
+}
+
+.title__navbar__name {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.title__navbar__name h1 {
+  text-align: center;
+  font-family: "Abel";
+  font-size: 5.5em;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.title__navbar__name p {
+  font-size: 3em;
+  letter-spacing: 3px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+nav a {
+  color: inherit;
+  text-align: center;
+  font-family: "Abel";
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  color: #bca36c;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+.header img {
+  margin: 0.5px !important;
+  max-width: 200px;
+  background-color: transparent;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.btn {
+  position: absolute;
+  margin-right: auto;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.6rem;
+  display: inline-block;
+  color: inherit;
+}
+
+.wrapperContainer-dark {
+  background-repeat: no-repeat;
+  background: url("../img/nav-top-row4.jpg");
+  background-color: #262626;
+  z-index: 9999;
+}
+.wrapperContainer-light {
+  background-color: #262626;
+}
+.wrapperContainer-dark2 {
+  background-color: #262626;
+  color: #fafafa;
+}
+
+.wrapperContainer-fixed {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #262626;
+}
+.section_title {
+  padding: 7rem 0;
+  text-align: center;
+  margin: 0;
+}
+.section_btn {
+  margin: 7rem 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 0.5rem 0;
+  margin-right: 2em;
+}
+
+.header__nav a {
+  padding: 0.75em 1.15em;
+  border: solid 1px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.header__nav--agenda {
+  background-color: #f5e6c7;
+  font-size: 1.6em;
+  color: #1b170e;
+}
+
+.header__nav--agenda:hover {
+  background-color: #ab7406;
+  font-size: 1.7em;
+  color: #000000;
+}
+.header__nav--active:hover {
+  background-color: #fdcb68;
+  font-size: 1.6em;
+  color: #000000;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 0.6rem;
+  list-style-type: none;
+}
+
+.escola {
+  display: flex;
+}
+
+.escola_title {
+  font-size: 3.2rem;
+}
+
+.escola p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.contatos_address {
+  text-align: left;
+  font: normal 400 1.8rem "Inter", sans-serif;
+  padding: 3rem 0;
+}
+
+/*  */
+
+.escola {
+  display: flex;
+}
+
+.justify_escola {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  padding: 1em 2em;
+  line-height: 1.2;
+}
+
+/*  */
+
+.container__insta {
+  display: flex;
+  justify-content: center;
+}
+
+.card__insta {
+  padding: 0;
+  width: 90%;
+  max-width: 960px;
+  flex-basis: 280px;
+  margin: 1.5em;
+}
+
+.container__nossa__galeria h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+.card__container {
+  display: flex;
+  text-align: justify;
+}
+
+.nossa__galeria {
+  margin: 1em;
+}
+
+.img__carrossel {
+  margin: 20px 0;
+  flex-direction: column;
+  width: 600px !important;
+  height: 350px !important;
+}
+
+.aboutContainer {
+  display: flex;
+  text-align: left;
+}
+
+.aboutContainer img {
+  width: 650px;
+  height: 500px;
+  margin-right: 1em;
+  padding: 10px;
+}
+
+.about_card_content h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+  border: 1px solid #f8d5d580;
+  border-left: none;
+  border-right: none;
+}
+
+.about_card_content h3 {
+  font-family: "Abel";
+  align-items: justify;
+  justify-content: justify;
+  text-align: justify;
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  margin: 0 3em 0 0;
+  border-bottom: 1px solid #bca36c;
+}
+
+.justify {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  max-width: 960px;
+  flex-basis: 280px;
+  padding: 0 7em 0 0;
+}
+
+.justify p {
+  color: #fafafa;
+  font-size: 2em;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+/*  */
+
+.servicesContainer {
+  display: flex;
+  text-align: left;
+}
+
+.servicesContainer img {
+  width: 650px;
+  height: 500px;
+  margin-right: 1em;
+}
+
+.services_card_content h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+  border: 1px solid #f8d5d580;
+  border-left: none;
+  border-right: none;
+}
+
+.services_card_content h3 {
+  font-family: "Abel";
+  align-items: justify;
+  justify-content: justify;
+  text-align: justify;
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  margin: 0 3em 0 0;
+  border-bottom: 1px solid #bca36c;
+}
+
+.services {
+  margin-bottom: 40px;
+}
+
+.justify {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  max-width: 960px;
+  flex-basis: 280px;
+  padding: 0 7em 0 0;
+}
+
+.justify p {
+  color: #fafafa;
+  font-size: 2em;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.img__tesoura img {
+  width: 50%;
+  height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.img__cabelo img {
+  width: 50%;
+  height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.img__secador img {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  width: 30%;
+  height: 180px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.img__tesoura,
+.img__cabelo,
+.img__secador {
+  text-align: center;
+}
+
+.hair__salon img {
+  width: 100%;
+  height: 700px;
+}
+
+.section_title_contatos h2 {
+  font-size: 3.6rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5em;
+  color: #bca36c;
+  font-weight: 600;
+  border: 1px solid #f8d5d580;
+  border-left: none;
+  border-right: none;
+}
+
+.contatos_address {
+  color: #bca36c;
+  margin: 0.5em;
+  font-size: 1.5em;
+}
+
+.footer {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.footer a {
+  color: inherit;
+}
+
+/*  */
+/*  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nossa__galeria h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+  border: 1px solid #f8d5d580;
+  border-left: none;
+  border-right: none;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 10px 0;
+  background: #000;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 200px;
+  margin: 0 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.content {
+  height: 520px;
+  width: 935px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content .slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.navigation {
+  bottom: 160px;
+  left: 850px;
+  display: flex;
+}
+
+.bar {
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  margin: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: 0.5s ease;
+}
+
+.bar:hover {
+  background-color: white;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
+}
+
+.face__button img,
+.whats__button img {
+  width: 90px;
+  height: 70px;
+}
+.insta__button img,
+.youtube__button img {
+  width: 110px;
+  height: 90px;
+}
+.youtube__button img {
+  width: 100px;
+  height: 80px;
+}
+
+/* .redes ul {
+  background-image: url(../img/hair-salon.jpg);
+  opacity: 0.06;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 200vh;
+  height: 760px;
+  list-style-type: none;
+  gap: 6px;
+  display: flex;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+} */
+
+/*  */
+/*  */
+
+.aboutContainer__image {
+  display: flex;
+  text-align: left;
+}
+
+.aboutContainer__image img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 200vh;
+  height: 760px;
+}
+
+.about_card_content h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+.about_card_content h3 {
+  font-family: "Abel";
+  align-items: justify;
+  justify-content: justify;
+  text-align: justify;
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  margin: 0 3em 0 0;
+  border-bottom: 1px solid #bca36c;
+}
+
+.justify {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  max-width: 960px;
+  flex-basis: 280px;
+  padding: 0 7em 0 0;
+}
+
+.justify p {
+  color: #fafafa;
+  font-size: 2em;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.box {
+  position: sticky;
+  height: 100vh;
+  font-size: 25px;
+  width: 65px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0.6rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.box:hover {
+  width: 200px;
+  background: #25d366;
+  border-radius: 35px;
+  color: #fff;
+  box-shadow: 0 0 50px #25d3657e;
+}
+.box:nth-child(2):hover {
+  background: #c32aa3;
+  box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(3):hover {
+  background: #1877f2;
+  box-shadow: 0 0 50px #1876f285;
+}
+.box:nth-child(4):hover {
+  background: #f21d1d;
+  box-shadow: 0 0 50px #f21d1d80;
+}
+.navbar p {
+  transform: translate(60px);
+}
+.box .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.4s ease;
+}
+.instagram {
+  background-color: #c32aa3;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.facebook {
+  background-color: #1877f2;
+}
+.youtube {
+  background-color: #f21d1d;
+}
+.box:hover .icon {
+  background: #fff;
+  color: #3b3b3b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+}
+
+.box__insta {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+.box__facebook {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.box__youtube {
+  position: fixed;
+  bottom: 150px;
+  right: 10px;
+  z-index: 9999;
+}
+.box__whats {
+  position: fixed;
+  bottom: 220px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.box__youtube a,
+.box__insta a,
+.box__whats a,
+.box__facebook a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+#about {
+  background-image: url(../img/hair-salon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+  width: 200vh;
+  height: 760px;
+  list-style-type: none;
+  gap: 6px;
+  display: flex;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.box__about {
+  position: sticky;
+  height: 100vh;
+  font-size: 25px;
+  width: 65px;
+  height: 68px;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0.6rem;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.box__about:hover {
+  width: 200px;
+  background: #25d366;
+  border-radius: 35px;
+  color: #fff;
+  box-shadow: 0 0 50px #25d3657e;
+}
+.box__about:nth-child(7):hover {
+  background: #c32aa3;
+  box-shadow: 0 0 50px #b315917c;
+}
+
+.box__about:nth-child(8):hover {
+  background: #1877f2;
+  box-shadow: 0 0 50px #1876f285;
+}
+.box__about:nth-child(9):hover {
+  background: #f21d1d;
+  box-shadow: 0 0 50px #f21d1d80;
+}
+.navbar__about p {
+  transform: translate(60px);
+}
+.box__about .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.4s ease;
+}
+.instagram {
+  background-color: #c32aa3;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.facebook {
+  background-color: #1877f2;
+}
+.youtube {
+  background-color: #f21d1d;
+}
+.box__about:hover .icon {
+  background: #fff;
+  color: #3b3b3b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+}
+
+.box__insta {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+.box__facebook {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.box__youtube {
+  position: fixed;
+  bottom: 150px;
+  right: 10px;
+  z-index: 9999;
+}
+.box__whats {
+  position: fixed;
+  bottom: 220px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.box__youtube__about a,
+.box__insta__about a,
+.box__whats__about a,
+.box__facebook__about a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.redes ul {
+  background-image: url(../img/hair-salon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 200vh;
+  height: 760px;
+  list-style-type: none;
+  gap: 6px;
+  display: flex;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.call__1 h3 {
+  font-size: 5em;
+  font-family: "Abel";
+  opacity: 1 !important;
+  color: red !important;
+}
+
+.call__2 {
+  font-size: 3em;
+  font-family: "Abel";
+  color: rgba(37, 26, 13, 0.6);
+}
+
+.call__3 h4 {
+  font-size: 3em;
+  font-family: "Abel";
+  color: rgba(37, 26, 13, 0.6);
+}
+
+.call__4 h4 {
+  font-size: 3em;
+  font-family: "Abel";
+  color: rgba(37, 26, 13, 0.6);
+}
+
+.about__agenda {
+  margin-left: 600px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.navbar__about {
+  /* padding-top: 1em;
+
+  border: 1px solid rgba(37, 26, 13, 0.6);
+  border-radius: 50%;
+  color: #000000;
+  background-color: rgba(246, 243, 239, 0.6); */
+}
+
+/*  */
+
+/*  */
+.say__aboutContainer {
+  display: flex;
+  margin-bottom: 4em;
+}
+
+.say__content {
+  display: flex;
+}
+
+.say__aboutContainer img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.say__about_card_content h2 {
+  text-align: center;
+  font-family: "Abel";
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  margin: 0.5em 0;
+  padding: 0;
+  border: 1px solid #f8d5d580;
+  border-left: none;
+  border-right: none;
+}
+
+.say__about_card_content h3 {
+  font-family: "Abel";
+  align-items: justify;
+  justify-content: justify;
+  text-align: justify;
+  color: #bca36c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  margin: 0 3em 0 0;
+  border-bottom: 1px solid #bca36c;
+}
+
+.justify {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  max-width: 960px;
+  flex-basis: 280px;
+  padding: 0 7em 0 0;
+}
+
+.justify p {
+  color: #fafafa;
+  font-size: 2em;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.margin {
+  display: inline-block;
+}
+
+.say__star {
+  text-align: center;
+}
