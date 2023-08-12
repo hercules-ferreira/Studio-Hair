@@ -97,6 +97,8 @@ nav a {
   background: url("../img/nav-top-row4.jpg");
   background-color: #262626;
   z-index: 9999;
+  display: flex;
+  flex-wrap: wrap;
 }
 .wrapperContainer-light {
   background-color: #262626;
@@ -118,6 +120,11 @@ nav a {
   text-align: center;
   margin: 0;
 }
+
+
+
+
+
 .section_btn {
   margin: 7rem 0;
 }
@@ -127,8 +134,10 @@ nav a {
   align-items: center;
   color: var(--primary-color);
   padding: 0.5rem 0;
-  margin-right: 2em;
+  gap: 3rem;
+  margin-right: 1rem;
 }
+
 
 .header__nav a {
   padding: 0.75em 1.15em;
@@ -142,6 +151,7 @@ nav a {
   font-size: 1.6em;
   color: #1b170e;
 }
+
 
 .header__nav--agenda:hover {
   background-color: #ab7406;
@@ -203,9 +213,9 @@ nav a {
 
 .card__insta {
   padding: 0;
-  width: 90%;
+  width: 80%;
   max-width: 960px;
-  flex-basis: 280px;
+  flex-basis: 200px;
   margin: 1.5em;
 }
 
@@ -242,7 +252,7 @@ nav a {
 }
 
 .aboutContainer img {
-  width: 650px;
+  width: 450px;
   height: 500px;
   margin-right: 1em;
   padding: 10px;
@@ -574,24 +584,6 @@ input {
   height: 80px;
 }
 
-/* .redes ul {
-  background-image: url(../img/hair-salon.jpg);
-  opacity: 0.06;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 200vh;
-  height: 760px;
-  list-style-type: none;
-  gap: 6px;
-  display: flex;
-  text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
-} */
-
-/*  */
-/*  */
 
 .aboutContainer__image {
   display: flex;
@@ -749,24 +741,24 @@ input {
   color: inherit;
 }
 
-/*  */
+
 /*  */
 /*  */
 /*  */
 #about {
+  display: flex;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
   background-image: url(../img/hair-salon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   opacity: 0.8;
-  width: 200vh;
-  height: 760px;
+  /* width: 200vh;
+  height: 760px; */
   list-style-type: none;
   gap: 6px;
-  display: flex;
-  text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
 }
 .box__about {
   position: sticky;
@@ -897,19 +889,22 @@ input {
 .call__2 {
   font-size: 3em;
   font-family: "Abel";
-  color: rgba(37, 26, 13, 0.6);
+  color: rgb(239, 19, 7);
+ 
 }
 
 .call__3 h4 {
   font-size: 3em;
   font-family: "Abel";
-  color: rgba(37, 26, 13, 0.6);
+  color: rgb(239, 19, 7);
+
 }
 
 .call__4 h4 {
   font-size: 3em;
   font-family: "Abel";
-  color: rgba(37, 26, 13, 0.6);
+  color: rgb(239, 19, 7);
+
 }
 
 .about__agenda {
@@ -917,15 +912,6 @@ input {
   margin-right: 100px;
   margin-top: 25px;
   margin-bottom: 10px;
-}
-
-.navbar__about {
-  /* padding-top: 1em;
-
-  border: 1px solid rgba(37, 26, 13, 0.6);
-  border-radius: 50%;
-  color: #000000;
-  background-color: rgba(246, 243, 239, 0.6); */
 }
 
 /*  */
